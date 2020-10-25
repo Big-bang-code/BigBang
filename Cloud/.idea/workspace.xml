@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73a28998-3752-4d6e-a8d5-43a0b6f406c9" name="Default Changelist" comment="" />
+    <list default="true" id="73a28998-3752-4d6e-a8d5-43a0b6f406c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectDscrie" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDscrie" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jGoZSyKpDpGlmXLJ9NgqqCYXTl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,11 +78,24 @@
       <workItem from="1603439846198" duration="6559000" />
       <workItem from="1603500903043" duration="16000" />
       <workItem from="1603521376620" duration="1882000" />
+      <workItem from="1603613557695" duration="359000" />
     </task>
+    <task id="LOCAL-00001" summary="增加sql模块">
+      <created>1603613793285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603613793285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加sql模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加sql模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="97" key="#Project_Structure" timestamp="1603445826704">

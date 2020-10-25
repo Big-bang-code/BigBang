@@ -9,6 +9,7 @@
         <module name="super-sys" />
         <module name="super-utils" />
         <module name="super-common" />
+        <module name="super-sql" />
       </profile>
     </annotationProcessing>
   </component>
