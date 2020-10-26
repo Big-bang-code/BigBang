@@ -11,6 +11,7 @@
 
     <artifactId>super-sys</artifactId>
     <dependencies>
+        <!--主要的依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
