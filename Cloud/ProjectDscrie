@@ -11,24 +11,24 @@ idea中点击commit，必须写描述，这就对应git中的 git commit -m "描
 
 该SpringBoot微服务系统，分为多个模块。结合
 
-cloud:
-
 common模块：
-
+    公共
 
 sys模块：
     初始化缓存信息，比如用户的信息、数据字典等
+    单点登录
 
 utils模块：
     工具模块，如mq，jedis等
+    sms短信邮件等
+    search es搜索
 
-搜索
+rfs模块：
+    上传，下载
+    打包文件成zip等格式下载
 
-上传，下载
-
-单点登录
-
-升级版本自动执行sql  sql
+sql模块
+    升级版本自动执行sql  sql
 
 
 

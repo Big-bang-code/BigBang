@@ -113,6 +113,7 @@
         <module>super-utils</module>
         <module>super-sys</module>
         <module>super-sql</module>
+        <module>super-rfs</module>
     </modules>
 
 
