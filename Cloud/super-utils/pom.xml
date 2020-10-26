@@ -12,11 +12,14 @@
     <artifactId>super-utils</artifactId>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>com.rongda</groupId>-->
-<!--            <artifactId>wisdom_ib-common</artifactId>-->
-<!--            <version>${project.version}</version>-->
-<!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.cloud</groupId>
+            <artifactId>super-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -49,6 +52,10 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-exec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
         </dependency>
 
     </dependencies>
