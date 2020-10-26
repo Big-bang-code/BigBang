@@ -23,3 +23,5 @@
 
 另外加的：
 idea中点击commit，必须写描述，这就对应git中的 git commit -m "描述"
+
+
