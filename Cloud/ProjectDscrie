@@ -2,7 +2,7 @@
 单纯的想做模块之间的调用，es，mq，redis等整合起来的项目
 
 任务：
-    1.整合数据库中的mybatis、tkmybatis等
+    1.整合数据库中的mybatis、tkmybatis等，连接mysql
 
 
 该SpringBoot微服务系统，分为多个模块。结合

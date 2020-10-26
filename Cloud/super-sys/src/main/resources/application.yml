@@ -1,0 +1,15 @@
+url-config:
+  SYS_URL: http://localhost:10000
+
+
+server:
+  port: 10000
+
+spring:
+  application:
+    name: cloudsys
+  datasource:
+    url:  jdbc:mysql://localhost:3306/cloud?characterEncoding=utf-8&allowMultiQueries=true&tinyIntlisBit=false              # 数据库名称
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
