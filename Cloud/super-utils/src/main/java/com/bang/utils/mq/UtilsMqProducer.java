@@ -14,8 +14,8 @@ public class UtilsMqProducer {
     @Autowired
     private JmsMessagingTemplate jmsTemplate;//也可以注入JmsTemplate，JmsMessagingTemplate对JmsTemplate进行了封装
 
-    @Autowired
-    private ThreadPoolConfig threadPoolConfig;
+//    @Autowired
+//    private ThreadPoolConfig threadPoolConfig;
 
 
 

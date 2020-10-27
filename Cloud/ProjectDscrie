@@ -14,16 +14,19 @@ idea中点击commit，必须写描述，这就对应git中的 git commit -m "描
 common模块：
     公共
 
-sys模块：20200
+sys模块：20000
     初始化缓存信息，比如用户的信息、数据字典等
     单点登录
+
+info模块：20100
+
 
 utils模块：20400
     工具模块，如mq，jedis等
     sms短信邮件等
     search es搜索
 
-rfs模块：
+rfs模块：20300
     上传，下载
     打包文件成zip等格式下载
 
