@@ -1,2 +1,10 @@
+url-config:
+  SYS_URL: http://localhost:20000
+  INFO_URL: http://localhost:20100
+  RFS_URL: http://localhost:20300
+  UTILS_URL: http://localhost:20400
+
+
+
 server:
   port: 20400

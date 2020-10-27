@@ -22,6 +22,7 @@ public class ExceptionHandle {
 
     /**
      * 处理系统类的异常
+     * StackTraceElement，当抛出异常后，能够以链路的样式去显示出方法各种调用的情况
      */
     @ExceptionHandler(value = {Exception.class})
     public ApiResponse<String> HandleException(Exception e){
