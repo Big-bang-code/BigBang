@@ -1,4 +1,4 @@
-package com.bang.common.entity;
+package com.bang.common.entity.info;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
