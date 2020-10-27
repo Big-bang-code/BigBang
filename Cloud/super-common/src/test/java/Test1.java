@@ -1,6 +1,8 @@
 /**
  * 测试
  * StackTraceElement
+ *
+ * 在统一异常处理中使用该打印方式，可以得到类似链路打印一样
  */
 public class Test1 {
 

@@ -30,7 +30,7 @@ public class ExceptionHandle {
         sb.append(e.fillInStackTrace());
         for(int i= 0;i<stackTraceElements.length;i++){
             StackTraceElement s = stackTraceElements[i];
-            sb.append(" "+s.getClassName()+"."+s.getMethodName()+"("+s.getFileName()+":"+s.getLineNumber()+") ");
+            sb.append("类名："+s.getClassName()+"，方法名："+s.getMethodName()+"，文件名："+s.getFileName()+"，行数："+s.getLineNumber()+"");
         }
         return ApiResponse.createApiResponse(sb.toString(), Result.SYSTEM_ERROR);
     }
