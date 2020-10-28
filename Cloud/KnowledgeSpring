@@ -1,3 +1,10 @@
 CommandLineRunner:
 > 平常开发中有可能需要实现在项目启动后执行的功能，
   SpringBoot提供的一种简单的实现方案就是添加一个model并实现CommandLineRunner接口，实现功能的代码放在实现的run方法中
+
+
+> logback.xml：直接就被日志框架识别了；
+  logback-spring.xml：日志框架就不直接加载日志的配置项，由SpringBoot解析日志配置，可以使用SpringBoot 的高级Profile功能
+
+
+>SpringMVC自动配置
