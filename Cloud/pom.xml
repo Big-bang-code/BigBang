@@ -124,6 +124,15 @@
                <version>1.10</version>
            </dependency>
 
+           <!--druid，在sql模块中也用到该依赖-->
+           <dependency>
+               <groupId>com.alibaba</groupId>
+               <artifactId>druid</artifactId>
+               <version>1.0.31</version>
+           </dependency>
+
+
+
        </dependencies>
    </dependencyManagement>
 
