@@ -16,6 +16,26 @@ public enum Result {
     private int code;
     private String msg;
 
-
-
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+    public static Result fromCode(int code) {
+        Result[] results = Result.values();
+        for (Result result : results) {
+            if (result.getCode() == code) {
+                return result;
+            }
+        }
+        return null;
+    }
+    public static Result formMsg(int code,String msg){
+        Result[] results = Result.values();
+        for (Result result : results) {
+            if (result.getCode() == code) {
+                result.msg = msg;
+                return result;
+            }
+        }
+        return null;
+    }
 }

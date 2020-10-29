@@ -8,3 +8,10 @@ CommandLineRunner:
 
 
 >SpringMVC自动配置
+
+
+>注册Servlet三大组件【Servlet、Filter、Listener】
+由于SpringBoot默认是以jar包的方式启动嵌入式的Servlet容器来启动SpringBoot的web应用，没有web.xml文件。
+
+>servlet容器：
+    Tomcat\Jetty\Undertow

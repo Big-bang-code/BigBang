@@ -19,6 +19,7 @@ sys模块：20000
     单点登录
 
 info模块：20100
+    druid、mybatis、通用mapper   等配置
 
 
 utils模块：20400
@@ -37,6 +38,9 @@ sql模块
 
 如果是商城模块，涉及到秒杀这种的
 
+
+待办：
+    sendAndGetResponseData   服务远程调用
 
 
 

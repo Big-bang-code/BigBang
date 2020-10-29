@@ -22,6 +22,8 @@
         <tkmybatis.version>2.0.2</tkmybatis.version>
         <jedis.version>2.9.0</jedis.version>
         <pagehelper.version>1.2.3</pagehelper.version>
+        <mysql.version>5.1.38</mysql.version>
+        <druid.version>1.0.31</druid.version>
     </properties>
 
 
@@ -39,11 +41,7 @@
                <artifactId>mysql-connector-java</artifactId>
                <version>5.1.38</version>
            </dependency>
-           <dependency>
-               <groupId>com.alibaba</groupId>
-               <artifactId>druid</artifactId>
-               <version>1.0.31</version>
-           </dependency>
+
            <dependency>
                <groupId>org.mybatis.spring.boot</groupId>
                <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -110,7 +108,6 @@
                <version>3.2.2</version>
            </dependency>
 
-
            <dependency>
                <groupId>org.projectlombok</groupId>
                <artifactId>lombok</artifactId>
@@ -128,7 +125,12 @@
            <dependency>
                <groupId>com.alibaba</groupId>
                <artifactId>druid</artifactId>
-               <version>1.0.31</version>
+               <version>${druid.version}</version>
+           </dependency>
+           <dependency>
+               <groupId>mysql</groupId>
+               <artifactId>mysql-connector-java</artifactId>
+               <version>${mysql.version}</version>
            </dependency>
 
        </dependencies>
@@ -140,6 +142,7 @@
         <module>super-sys</module>
         <module>super-sql</module>
         <module>super-rfs</module>
+        <module>super-test</module>
     </modules>
 
 
