@@ -5,15 +5,15 @@ url-config:
 server:
   port: 20200
 
-#spring:
-#  application:
-#    name: cloudsys
-#  datasource:
-#    url:  jdbc:mysql://localhost:3306/cloud?characterEncoding=utf-8&allowMultiQueries=true&tinyIntlisBit=false              # 数据库名称
-#    username: root
-#    password: root
-#    driver-class-name: com.mysql.jdbc.Driver
-#
+spring:
+  application:
+    name: cloudsys
+  datasource:
+    url:  jdbc:mysql://localhost:3306/cloud?characterEncoding=utf-8&allowMultiQueries=true&tinyIntlisBit=false              # 数据库名称
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
 #  redis:
 #    database: 0
 #    host: localhost

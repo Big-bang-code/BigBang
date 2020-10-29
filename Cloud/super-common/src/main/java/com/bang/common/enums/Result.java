@@ -11,7 +11,9 @@ public enum Result {
 
     SUCCESS(0, "成功"),
 
-    SYSTEM_ERROR(-501, "系统异常")
+    SYSTEM_ERROR(-501, "系统异常"),
+
+    MONGODB_OPERATION_ERROR(-5018,"操作mongoDB出现异常")
     ;
     private int code;
     private String msg;

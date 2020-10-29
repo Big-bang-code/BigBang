@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 测试
  * StackTraceElement
@@ -8,7 +11,12 @@ public class Test1 {
 
     public static void main(String[] args) {
         new A().TestA();
+
+        Map aaa = new HashMap<>(10);
+        System.out.println(aaa.size());
+
     }
+
     public void TestInvoke(Exception e){
         StackTraceElement[] stackTraceElements = e.getStackTrace();
         for(StackTraceElement s:stackTraceElements){
